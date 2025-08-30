@@ -16,7 +16,8 @@ const corsOptions = {
   origin: [
     'http://localhost:3000', // Development
     'http://localhost:3001', // Alternative development port
-    'https://cahnged-repo-ghyy1krgp-arbab08s-projects.vercel.app', // Production frontend URL
+    'https://cahnged-repo-ghyy1krgp-arbab08s-projects.vercel.app', // Old Vercel URL
+    'https://cahnged-repo-git-main-arbab08s-projects.vercel.app', // New Vercel URL
     /https:\/\/.*\.vercel\.app$/, // All Vercel preview URLs
     /https:\/\/.*\.railway\.app$/, // Railway domains
     /https:\/\/.*\.onrender\.com$/ // Render domains
