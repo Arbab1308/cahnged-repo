@@ -16,9 +16,10 @@ const corsOptions = {
   origin: [
     'http://localhost:3000', // Development
     'http://localhost:3001', // Alternative development port
-    'https://pushuing-on-git-pc0bnnjgv-arbab08s-projects.vercel.app', // Production frontend URL
+    'https://cahnged-repo-ghyy1krgp-arbab08s-projects.vercel.app', // Production frontend URL
     /https:\/\/.*\.vercel\.app$/, // All Vercel preview URLs
-    /https:\/\/.*\.railway\.app$/ // Railway domains
+    /https:\/\/.*\.railway\.app$/, // Railway domains
+    /https:\/\/.*\.onrender\.com$/ // Render domains
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
