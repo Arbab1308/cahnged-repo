@@ -7,9 +7,7 @@ import { GlassCard, ModernButton, ModernInput, ModernCard, StatsCard, ModernBadg
 const AuthContext = createContext();
 
 // API configuration for different environments
-const API_BASE = process.env.NODE_ENV === 'production' 
-  ? process.env.REACT_APP_API_URL || 'https://your-backend-url.com/api'
-  : 'http://localhost:5001/api';
+const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
 
 const api = {
   login: async (email, password) => {
